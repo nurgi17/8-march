@@ -1,0 +1,10 @@
+@font-face {
+   font-family: 'EtelkaTextPro-Bold';
+   font-display: swap;
+   src: url('EtelkaTextPro-Bold/font.ttf');
+}
+@font-face {
+   font-family: 'Tahoma Regular font';
+   font-display: swap;
+   src: url('Tahoma Regular font/font.ttf');
+}
