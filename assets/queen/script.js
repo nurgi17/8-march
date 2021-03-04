@@ -486,6 +486,21 @@ var list = function(obj, ii) {
             src="${obj.items[o].img}"
           />
         </div>
+        <div style="position: absolute; top: 0;" class="mt-4">
+          <div
+            class="px-2 pt-1 text-white"
+            style="
+              background-color: #e61771 !important;
+              height: 23px;
+              border-top-right-radius: 12px;
+              border-bottom-right-radius: 12px;
+              width: 77px;
+              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            "
+          >
+            0-0-24
+          </div>
+        </div>
         <div class="item-content">
           <h6 class="item-subtitle mbr-fonts-style mt-1 display-7">
             <strong>${obj.items[o].name}</strong>
@@ -516,3 +531,6 @@ list(arr[0], 0)
 
 for (var i = 0, len = click_event.length; i < len; i++)
   addClickHandler(click_event[i], i)
+
+
+// ––
